@@ -1,0 +1,23 @@
+HTNowy3Bundle:
+    resource: "@HTNowy3Bundle/Resources/config/routing.yml"
+    prefix:   /news
+
+HTNowy2Bundle:
+    resource: "@HTNowy2Bundle/Controller/"
+    type:     annotation
+    prefix:   /news2
+
+HTNowyBundle:
+    resource: "@HTNowyBundle/Controller/"
+    type:     annotation
+    prefix:   /news1
+
+
+BloggerBlogBundle:
+    resource: "@BloggerBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
+# Internal routing configuration to handle ESI
+#_internal:
+#   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
+#   prefix:   /_internal

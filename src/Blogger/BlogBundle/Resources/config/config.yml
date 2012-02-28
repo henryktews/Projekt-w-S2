@@ -1,0 +1,6 @@
+parameters:
+    # Blogger contact email address
+    blogger_blog.emails.contact_email: contact@email.com
+
+    # Blogger max latest comments
+    blogger_blog.comments.latest_comment_limit: 10

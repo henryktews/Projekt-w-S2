@@ -1,0 +1,7 @@
+parameters:
+#    ht_nowy3.example.class: HT\Nowy3Bundle\Example
+
+services:
+#    ht_nowy3.example:
+#        class: %ht_nowy3.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
