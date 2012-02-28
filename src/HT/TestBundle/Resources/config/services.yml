@@ -1,0 +1,7 @@
+parameters:
+#    ht_test.example.class: HT\TestBundle\Example
+
+services:
+#    ht_test.example:
+#        class: %ht_test.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
